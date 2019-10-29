@@ -36,3 +36,20 @@ proc sql;
 	insert into orders (CustomerID, order) values(8. 'punching bag');
 quit;
 
+/********************/
+/********************/
+/********************/
+/********************/
+
+
+
+insert into transaction (clientId, name, price) values(1, 'Анатолий ' , 42836);
+insert into transaction (clientId, name, price) values(2, 'Иван'      , 51936);
+insert into transaction (clientId, name, price) values(3, 'Григорий ' , 52036);
+insert into transaction (clientId, name, price) values(1, 'Анатолий ' , 52036);
+insert into transaction (clientId, name, price) values(2, 'Иван'      , 52536);
+insert into transaction (clientId, name, price) values(3, 'Григорий ' , 52136);
+insert into transaction (clientId, name, price) values(1, 'Анатолий ' , 52236);
+insert into transaction (clientId, name, price) values(2, 'Иван'      , 52336);
+insert into transaction (clientId, name, price) values(3, 'Григорий ' , 52236);
+insert into transaction (clientId, name, price) values(1, 'Анатолий ' , 52536);
