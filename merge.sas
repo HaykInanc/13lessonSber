@@ -53,3 +53,29 @@ insert into transaction (clientId, name, price) values(1, 'Анатолий ' , 
 insert into transaction (clientId, name, price) values(2, 'Иван'      , 52336);
 insert into transaction (clientId, name, price) values(3, 'Григорий ' , 52236);
 insert into transaction (clientId, name, price) values(1, 'Анатолий ' , 52536);
+
+
+/********************/
+/********************/
+/********************/
+/********************/
+
+
+insert into transaction (clientId, name, salary,  payouts) values(2, 'Иван'      , 66000, 64000);
+insert into transaction (clientId, name, salary,  payouts) values(1, 'Анатолий ' , 72000, 75000);
+insert into transaction (clientId, name, salary,  payouts) values(2, 'Иван'      , 66000, 65000);
+insert into transaction (clientId, name, salary,  payouts) values(3, 'Григорий ' , 95000, 92000);
+insert into transaction (clientId, name, salary,  payouts) values(1, 'Анатолий ' , 72000, 73000);
+insert into transaction (clientId, name, salary,  payouts) values(3, 'Григорий ' , 95000, 93000);
+insert into transaction (clientId, name, salary,  payouts) values(2, 'Иван'      , 66000, 67000);
+insert into transaction (clientId, name, salary,  payouts) values(3, 'Григорий ' , 95000, 97000);
+insert into transaction (clientId, name, salary,  payouts) values(1, 'Анатолий ' , 72000, 65000);
+insert into transaction (clientId, name, salary,  payouts) values(3, 'Григорий ' , 95000, 92000);
+insert into transaction (clientId, name, salary,  payouts) values(2, 'Иван'      , 66000, 65000);
+insert into transaction (clientId, name, salary,  payouts) values(3, 'Григорий ' , 95000, 90000);
+insert into transaction (clientId, name, salary,  payouts) values(1, 'Анатолий ' , 72000, 73000);
+insert into transaction (clientId, name, salary,  payouts) values(3, 'Григорий ' , 95000, 93000);
+insert into transaction (clientId, name, salary,  payouts) values(2, 'Иван'      , 66000, 62000);
+insert into transaction (clientId, name, salary,  payouts) values(1, 'Анатолий ' , 72000, 72000);
+insert into transaction (clientId, name, salary,  payouts) values(2, 'Иван'      , 66000, 70000);
+insert into transaction (clientId, name, salary,  payouts) values(1, 'Анатолий ' , 72000, 70000);
