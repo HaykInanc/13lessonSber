@@ -79,3 +79,31 @@ insert into transaction (clientId, name, salary,  payouts) values(2, 'Иван' 
 insert into transaction (clientId, name, salary,  payouts) values(1, 'Анатолий ' , 72000, 72000);
 insert into transaction (clientId, name, salary,  payouts) values(2, 'Иван'      , 66000, 70000);
 insert into transaction (clientId, name, salary,  payouts) values(1, 'Анатолий ' , 72000, 70000);
+
+
+
+/*****************************************/
+/*****************************************/
+/*****************************************/
+/*****************************************/
+/*****************************************/
+
+proc sort data=sashelp.cars out=cars1;
+	by make;
+run;
+
+data _null_;
+	set cars1;
+	by make;
+	format makes $512.;
+	retain makes '';
+	if first.make then do;
+		make = tranwrd(TRIM(make), ' ', '_');
+		make = tranwrd(make, '-', '_');
+		CALL SYMPUT (make, make);
+		makes = catx(' ', makes, make);
+	end;
+	
+	if last.make; 
+		CALL SYMPUT('makes', makes);
+run;
